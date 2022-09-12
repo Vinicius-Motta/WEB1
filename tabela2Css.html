@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, td{
+            border: solid 1px black;
+        }
+        .cores td{
+            padding: 30px 60px;
+            text-align: center;
+        }
+        .cor1{
+            background-color: blue;
+        }
+        .cor2{
+            background-color: red;
+        }
+        .cor3{
+            background-color: green;
+        }
+        .cor4{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Estilo 2</h1>
+    <table class="cores">
+        <caption>Tabela grande Colspan e Rowspan</caption>
+        <tr class="cor3" >
+            <td colspan="2">colspan</td>
+            <td>-</td>
+            <td rowspan="3">rowspan</td>
+        </tr>
+        <tr class="cor2">
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+        <tr class="cor1">
+            <td>-</td>
+            <td colspan="2">Colspan</td>
+        </tr>
+        <tr class="cor4">
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+    </table>
+<br>
+
+<table>
+    <caption>Legenda</caption>
+    <tr>
+        <td>tabela 1</td>
+        <td class="cor3">----- </td>
+        <td>green</td>
+    </tr>
+    <tr>
+        <td>tabela 2</td>
+        <td class="cor2">------</td>
+        <td>red</td>
+    </tr>
+    <tr>
+        <td>tabela 3</td>
+        <td class="cor1">------</td>
+        <td>blue</td>
+    </tr>
+    <tr>
+        <td>tabela 4</td>
+        <td class="cor4">------</td>
+        <td>yellow</td>
+    </tr>
+</table>
+<br>
+<a href="index.html">Voltar ao Menu</a>
+
+    
+</body>
+</html>
